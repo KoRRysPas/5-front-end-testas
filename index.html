@@ -7,39 +7,42 @@
     <link rel="stylesheet" href="./Style/main.css">
     <link rel="stylesheet" href="./Style/form.css">
     <link rel="stylesheet" href="./Style/button.css">
-    <title>front end testas</title>
+    <title>Front end testas</title>
 </head>
 <body>
     <main>
         <div class="left">
-            <h2>
+            <header>
                 Fcuksense
-            </h2>
+            </header>
             <h1>
-                Artificial Inteligence Driving Results For The Travel Industry
+                Artificial inteligence driving results for the travel industry
             </h1>
             <p>
                 Welcome back, please login to your account
             </p>
-            <form>
-                <div class="table">
-                <label class="email" for="email">email</label>
-                <input class="email" id="email" type="text" required>
-                <label class="password" for="password">password</label>
-                <input class="password" id="password" type="password" required>
-                <input class="checkbox" type="checkbox" name="Remember me" id="remember me">
+            <form class="form">
+                <div class="form-row">
+                    <label for="email">email</label>
+                    <input type="text" required>
                 </div>
-                <div>
-                    <a class="forget" href="#">Forget password?</a>
-                <button class="login">
-                    login
-                </button>
-                <button class="sign up">
-                    sign up
-                </button>
+                <div class="form-row">
+                    <label for="password">password</label>
+                    <input type="password" required>
                 </div>
-                <div class="bottom links">
-                    <span>or login with</span>
+                <div class="form-row flex-row">
+                    <input type="checkbox" name="remember me" id="">
+                    <label for="checkbox">remember me</label>
+                    <a href="#">forgot password?</a>
+                </div>
+                <div class="form-row flex-row">
+                    <button type="submit">login</button>
+                    <button type="submit">Sign up</button>
+                </div>
+                <div class="form-row flex-row">
+                    <span>
+                        Or login with
+                    </span>
                     <a href="#">Facebook</a>
                     <a href="#">Linkedin</a>
                     <a href="#">Google</a>
