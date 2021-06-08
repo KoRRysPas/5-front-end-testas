@@ -6,8 +6,10 @@ body * {
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body {
+  background-color: black;
+}
 main {
-  background-color: aqua;
   width: 1500px;
   display: inline-block;
   position: absolute;
@@ -16,10 +18,16 @@ main {
   transform: translate(-50%, -50%);
 }
 .left {
+  background-image: url(../img/lpic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   padding: 40px;
   display: inline-block;
   float: left;
   width: 40%;
+
 }
 .right {
   position: relative;
@@ -34,6 +42,7 @@ main {
   background-size: cover;
   height: 100vh;
 }
+
 header {
   margin-bottom: 50px;
 }
